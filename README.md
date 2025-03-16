@@ -1,46 +1,59 @@
-Expresso Cafe Project
+# Expresso Cafe Project
 
-Overview
+## Overview
 
 Expresso Cafe is a graphical application developed in C++ using C graphics. It simulates a cafe ordering system with an interactive graphical user interface, allowing users to place orders, view the menu, and process payments.
 
-Features
+## Features
 
-Interactive graphical user interface using C graphics (graphics.h)
+- Interactive graphical user interface using C graphics (graphics.h)
+- Menu display with categorized items
+- UI for order placements
+- Combo placements for special offers
+- Navigation between menu sections
+- Bill generation and display
+- Smooth animations and transitions for user experience
 
-Menu display with categorized items
+## Technologies Used
 
-UI for order placements
+- C++
+- C Graphics
 
-Combo placements for special offers
+## Setup Instructions
 
-Navigation between menu sections
+1. Install a C++ compiler (Turbo C++, Dev-C++, or any compiler supporting graphics.h)
+2. Ensure `graphics.h`, `winbgim.h`, and `libbgi.a` are set up in your compiler.
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/expresso-cafe.git
+   cd expresso-cafe
+   ```
+4. Compile the project:
+   ```bash
+   g++ expresso_cafe.cpp -o expresso_cafe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+   ```
+5. Run the executable:
+   ```bash
+   ./expresso_cafe
+   ```
 
-Bill generation and display
+## Usage
 
-Smooth animations and transitions for user experience
+- Navigate the menu using keyboard or mouse interactions.
+- Select items and quantities to place an order.
+- View the total bill before confirming the purchase.
+- Exit the application after completion.
 
-Technologies Used
+## Future Enhancements
 
-C++
+- Add sound effects for a more immersive experience.
+- Implement a database for order history tracking.
+- Improve UI aesthetics with better fonts and themes.
 
-C Graphics
+## Contributors
 
-Usage
+- **Mansi Kothale** (Developer)
 
-Navigate the menu using keyboard or mouse interactions.
+## License
 
-Select items and quantities to place an order.
-
-View the total bill before confirming the purchase.
-
-Exit the application after completion.
-
-Future Enhancements
-
-Add sound effects for a more immersive experience.
-
-Implement a database for order history tracking.
-
-Improve UI aesthetics with better fonts and themes.
-
+This project is open-source under the MIT License.
